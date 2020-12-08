@@ -1,0 +1,30 @@
+.SignUp {
+    margin: 2rem 0;
+    width: 40%;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.SignUp h3 {
+    margin-bottom: 2rem;
+}
+
+.SignUp .error {
+    color: #eb1414;
+    font-size: 1.5rem;
+}
+
+.SignUp .success {
+    color: #11cc11;
+    font-size: 1.5rem;
+}
+
+
+
+@media (max-width: 520px) {
+    .SignUp {
+        width: 80%;
+    }
+  }

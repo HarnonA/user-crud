@@ -1,0 +1,38 @@
+.Form {
+    margin: 2rem 0;
+    width: 100%;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Form h3 {
+    margin-bottom: 2rem;
+}
+
+.Form .error {
+    color: #eb1414;
+    font-size: 1.5rem;
+}
+
+.Form .success {
+    color: #11cc11;
+    font-size: 1.5rem;
+}
+
+.Form label {
+    text-align: left;
+    width: 100%;
+}
+
+.Form .forgot-password {
+    margin: 1rem 0;
+    text-align: center;
+}
+
+@media (max-width: 520px) {
+    .Form {
+        width: 80%;
+    }
+  }

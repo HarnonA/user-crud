@@ -1,0 +1,29 @@
+.SignIn {
+    margin: 2rem 0;
+    width: 40%;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.SignIn h3 {
+    margin-bottom: 2rem;
+}
+
+.SignIn label {
+    text-align: left;
+    width: 100%;
+}
+
+
+.SignIn .forgot-password {
+    margin: 1rem 0;
+    text-align: center;
+}
+
+@media (max-width: 520px) {
+    .SignIn {
+        width: 80%;
+    }
+  }

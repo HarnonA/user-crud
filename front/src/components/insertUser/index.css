@@ -1,0 +1,15 @@
+.InsertUser {
+    margin: 2rem 0;
+    width: 40%;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+@media (max-width: 520px) {
+    .InsertUser {
+        width: 80%;
+    }
+  }

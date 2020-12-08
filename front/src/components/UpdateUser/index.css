@@ -1,0 +1,15 @@
+.UpdateUser {
+    margin: 2rem 0;
+    width: 40%;
+    display: flex;
+    
+    flex-direction: column;
+    
+}
+
+
+@media (max-width: 520px) {
+    .UpdateUser {
+        width: 80%;
+    }
+  }

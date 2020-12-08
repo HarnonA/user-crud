@@ -1,0 +1,16 @@
+.RemoveUser {
+    width: 40%;
+    margin-top: 2rem;
+}
+
+.RemoveUser .success {
+    margin-top: 1.2rem;
+    color: #11cc11;
+    font-size: 1.5rem;
+}
+
+@media (max-width: 520px) {
+    .RemoveUser {
+        width: 80%;
+    }
+  }

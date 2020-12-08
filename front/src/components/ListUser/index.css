@@ -1,0 +1,19 @@
+.List {
+    margin: 2rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    
+    
+}
+
+.List .element {
+    display: flex;
+    padding: 1rem;
+    flex-wrap: wrap;
+}
+
+.List p {
+    padding-right: 10px;
+}
