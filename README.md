@@ -4,12 +4,15 @@ With this application is possible to sign in, sign up, list, search, update and 
 ## Requirements	
 * NPM or yarn
 * Git
+* Postgres
 
 ## Technologies	
 * React
 * Node.js
 * Express
 * Postgres
+* Knex
+* JWT
 * Redux	
 
 ## Getting started</h1>	
@@ -52,3 +55,5 @@ $ npm start
 
 ## TODO	
 * Docker
+* Auth routes block
+* Tests
