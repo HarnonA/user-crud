@@ -36,6 +36,14 @@ $ npm start
 
 ### Run the back-end
 ```bash
+# Postgres configuration is required
+$ sudo -i -u postgres
+$ psql
+$ CREATE DATABASE db_users;
+
+# Check user and password in the .env file. It may be different in your OS
+
+
 # Build and run back-end
 $ cd back
 $ npm i
